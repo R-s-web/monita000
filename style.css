@@ -1,0 +1,33 @@
+body{
+	background-image: url("imagenes/img1.jfif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1{
+	font-size: 55px;
+	
+}
+
+p{
+	font-size: 35px;
+	color: purple;
+}
+
+.amarillo{
+	color: yellow;
+}
+
+.amarillo2{
+	color: purple;
+	font-size: 60px;
+}
