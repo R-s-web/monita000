@@ -20,5 +20,21 @@
 	<p class="amarillo">Ojala que nunca nos separemos y que nuetro amor dure para siempre, porque despues de conocerla a ud no quiero conocer a nadie más yo quiero que siempre sea ud la que este en las buenas y en las malas conmigo yo se que ud es la indicada para mi no quiero a nadie más ud va ser la mamá de mis hijos.</p>
 	<center><img src="imagenes/img6.png" width="300px"></center>
 	<center><p class="amarillo2">LA DINOAMO❤️</p></center>
+	<button class="musica" id="btnMusica" onclick="mostrarSorpresa()">❤️?</button>
+	<audio id="musica" loop>
+		<source src="audio1.mp3" type="audio/mpeg">
+	</audio>
+	<div id="sorpresa" style="display: none;">
+		<img src="imagenes/sorpresa.jfif" width="300px">
+		<p class="sorpreafrase">Siempre llena mis días de alegria, sin duda es lo mejor que me ha pasado me siento tan feliz con mi monita, no he conocido a ninguna niña tan linda y tan única como ud.</p>
+		<p class="sorpreafrase">Dios Mio, Que Mujer!</p>
+	</div>
+	<script>
+		function mostrarSorpresa() {
+			document.getElementById('musica').play();
+			document.getElementById('btnMusica').style.display = 'none';
+			document.getElementById('sorpresa').style.display = 'block';
+		}
+	</script>
 </body>
 </html>
