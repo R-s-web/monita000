@@ -1,0 +1,74 @@
+body{
+	background-image: url("imagenes/img1.jfif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1{
+	font-size: 55px;
+	
+}
+
+p{
+	font-size: 35px;
+	color: purple;
+}
+
+.amarillo{
+	color: yellow;
+}
+
+.amarillo2{
+	color: purple;
+	font-size: 60px;
+}
+
+.musica{
+
+	width: 80px ;
+	height: 80px;
+	border-radius: 100%;
+	border: 100px black;
+	font-size: 60px;
+	color: fuchsia;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	animation: latido 3s infinite;
+} 
+
+.sorpreafrase{
+	color: fuchsia;
+}
+
+@keyframes latido { 
+	0% { transform: scale(1.0); }
+	50% { transform: scale(1.4); }
+	100% { transform: scale(1.0); }
+ }
+
+ #sorpresa{
+ 	text-align: center;
+ 	animation: aparecer 1.5s ease;
+ }
+
+ .frase-bonita{
+ 	font-size: 22px;
+ 	color: #ff4d6d;
+ 	margin-top: 20px;
+ 	font-weight: bold;
+ }
+
+ @keyframes aparecer {
+ 	from { opacity: 0; transform: translateY(20px); }
+ 	to { opacity: 1; transform: translateY(0); }
+ }
